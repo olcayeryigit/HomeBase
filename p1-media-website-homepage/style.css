@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.container {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../p1-media-website-homepage/image/pexels-karolina-grabowska-4968506-6690x3664.jpg");
+  background-size: 100% 100vh;
+  margin: auto;
+}
+
+.container header {
+  width: 100%;
+  height: 30vh;
+}
+
+.container .head {
+  width: 100%;
+  height: 12vh;
+  background-color: rgb(141, 4, 92);
+  color: white;
+  float: left;
+}
+
+h1 {
+  font-size: 300%;
+}
+
+.head p {
+  font-size: 2.2vh;
+}
+
+.head h5,
+p {
+  margin: 2vh 0 0 10%;
+}
+
+.head a {
+  color: white;
+  text-decoration: none;
+}
+
+header .logo {
+  width: 13%;
+  height: 13vh;
+  background-color: rgba(126, 204, 0, 0);
+  float: left;
+  background-image: url("../p1-media-website-homepage/image/a.png");
+  background-repeat: no-repeat;
+  background-size: 65% auto;
+  background-position: center;
+  margin: 1% 0 0 1%;
+}
+
+header menu {
+  width: 45%;
+  height: 10vh;
+  float: left;
+  margin: 2% 0 0 40%;
+}
+
+nav {
+  margin: 0 1em 0 0;
+  width: auto;
+  height: 50%;
+  float: left;
+}
+
+nav ul li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  margin: 0 0 0 1em;
+  font-size: 0.8em;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.user-actions {
+  width: auto;
+  height: 50%;
+  font-weight: bold;
+}
+
+.user-actions ul li {
+  list-style: none;
+  float: left;
+}
+
+.signin {
+  display: block;
+  margin: 0 0 0 1em;
+  font-size: 0.8em;
+  color: white;
+  text-decoration: none;
+}
+
+.signup {
+  background-color: rgb(141, 4, 92);
+  display: block;
+  margin: -0.3em 0 0 1em;
+  padding: 0.3em 1em 0.5em 1em;
+  font-size: 0.8em;
+  text-decoration: none;
+  color: white;
+  border-radius: 4em;
+}
+
+main {
+  width: 100%;
+  height: 25vh;
+  padding: 10vh 0 0 0;
+  float: left;
+  text-align: center;
+}
+main h1 {
+  color: white;
+  font-weight: bold;
+}
+
+main p {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.75em;
+  font-weight: bold;
+}
+
+footer {
+  width: 100%;
+  height: 35vh;
+  float: left;
+}
+
+footer div {
+  height: 100%;
+  float: left;
+  background-color: rgba(27, 6, 6, 0.5);
+}
+
+footer div {
+  width: 24.88%;
+  margin: 0 0.16% 0 0;
+}
+
+footer div:nth-child(4) {
+  width: 24.88%;
+  margin: 0;
+}
+
+.icon-container {
+  width: auto;
+  height: auto;
+  margin: 8% 0 0 7%;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+i {
+  font-size: 5vh;
+
+  color: rgb(197, 21, 135);
+}
+
+footer h5 {
+  font-weight: bold;
+  color: white;
+  margin: 22% 0 0 7%;
+}
+
+footer p {
+  margin: 2% 3% 0 7%;
+  font-size: 2.2vh;
+  color: rgb(184, 184, 184);
+  opacity: 100%;
+}
+
+footer a {
+  display: block;
+  width: 12%;
+  height: 3.7vh;
+  text-decoration: none;
+  color: white;
+  font-size: 0.8em;
+  background-color: rgb(141, 4, 92);
+  text-align: center;
+  margin: 0 0 3.5vh 1.5%;
+  padding: 0.3vh 0 0 0.3vh;
+  border-radius: 2em;
+  position: absolute;
+  bottom: 0;
+  font-weight: bold;
+}
